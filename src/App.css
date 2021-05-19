@@ -2,6 +2,190 @@
   text-align: center;
 }
 
+#Naslov{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.naslov_paragrafa{
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.Struktura{
+  width: 100%;
+  height: 100%;
+}
+
+.Bande{
+
+}
+
+.dodatno{
+  height: 200px;;
+}
+
+.paragraf{
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+body{
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: 130%;
+}
+
+.galerija{
+  width: 250px;
+}
+
+#slika1{
+  float: right;
+  margin-right: 40px;
+  margin-top: -900px;
+  height: 200px;
+  width: 400px;
+  border-radius: 10%;
+}
+
+#slika2{
+  float: right;
+  margin-right: 40px;
+  margin-top: -570px;
+  height: 400px;
+  width: 250px;
+}
+
+#slika3{
+  height: 190px;
+  width: 280px;
+  margin-top: -200px;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+#slika4{
+  height: 200px;
+  width: 290px;
+  margin-top: 150px;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+#slika5{
+  height: 200px;
+  width: 350px;
+  margin-top: 150px;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+#slika6{
+  height: 110px;
+  width: 190px;
+}
+
+#slika7{
+  height: 120px;
+  width: 400px;
+}
+
+#slika8{
+  height: 120px;
+  width: 440px;
+}
+
+#slika9{
+  margin-top: -100px;
+  margin-bottom: 30px;
+}
+
+#slika10{
+  margin-top: 220px;
+}
+
+#slika11{
+  height: 110px;
+  width: 200px;
+}
+
+#slika12{
+  height: 110px;
+  width: 200px;
+}
+
+#slika13{
+  height: 110px;
+  width: 200px;
+}
+
+
+#slika14{
+  height: 250px;
+  width: 400px;
+  border-radius: 15px;
+  margin-top: -150px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+#slika18{
+  height: 200px;
+  width: 340px;
+  margin-top: -900px;
+}
+
+#slika19{
+  height: 250px;
+  width: 400px;
+  float: right;
+  margin-top: -300px;
+  margin-right: 200px;
+}
+
+
+#opis{
+  float:right;
+  margin-top: -150px;
+  margin-right: 40px;
+
+}
+
+.povijest_paragraf{
+  text-align: left;
+}
+
+.linkovi_box{
+  width: 220px;
+  height: 130px;
+  text-align: left;
+  border: 2px solid black ;
+  border-radius: 5px;
+}
+
+
+.linkovi{
+  margin-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+#forma{
+  text-align: left;
+  margin-left: 50px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -25,7 +209,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
 }
 
 @keyframes App-logo-spin {

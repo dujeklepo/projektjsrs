@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import {Route, BrowserRouter as Router, Link} from 'react-router-dom';
+import Footer from './Footer.js';
+import Header from './Header.js';
+import Početna from './Početna.js';
+import Povijest from './Components/Povijest';
+import Revolver from './Components/Revolver';
+import Puska from './Components/Puska';
+import Bande from './Components/Bande';
+import Create from './Components/Create';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header></Header>
+    <Router>
+      <Route exact path="/" component={Početna}></Route>
+      <Route path="/Povijest" component={Povijest}></Route>
+      <Route path="/Revolver" component={Revolver}></Route>
+      <Route path="/Puska" component={Puska}></Route>
+      <Route path="/Bande" component={Bande}></Route>
+      <Route path="/Create" component={Create}></Route>
+
+      <Footer></Footer> 
+    </Router>
+
+    
+      
     </div>
   );
 }
